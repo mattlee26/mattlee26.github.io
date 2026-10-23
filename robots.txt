@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://mmlee.me/sitemap.xml
+Sitemap: https://mattlee26.github.io/sitemap.xml
