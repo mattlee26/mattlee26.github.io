@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Peer-reviewed publications in reverse chronological order. † indicates co-first authorship.
+description: Peer-reviewed publications are listed in reverse chronological order. † indicates co-first authorship.
 nav: true
 nav_order: 1
 ---
