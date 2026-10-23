@@ -1,0 +1,4 @@
+# Google Scholar citation counts (filled in by bin/update_scholar_citations.py if you enable it)
+metadata:
+  last_updated:
+papers: {}

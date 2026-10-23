@@ -1,0 +1,9 @@
+# this file contains the social media links and usernames of the author
+# the socials will be displayed in the order they are defined here
+# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+email: mlee26@gmail.com # your email address
+scholar_userid: jsDXz44AAAAJ # your Google Scholar ID
+orcid_id: 0000-0002-1510-3753 # your ORCID ID
+github_username: leem26 # your GitHub user name
+x_username: themattlee123 # your X (formerly Twitter) user name
+cv_pdf: /assets/rendercv/rendercv_output/Matthew_Lee_CV.pdf # path to your CV PDF file

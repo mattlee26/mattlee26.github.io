@@ -1,0 +1,603 @@
+# CV content in RenderCV format (https://docs.rendercv.com). Used by the /cv/ page and by
+# .github/workflows/render-cv.yml, which regenerates the PDF whenever this file changes.
+cv:
+  name: Matthew M. Lee, PhD
+  headline: Population Health Scientist
+  location: Durham, NC
+  email: mlee26@gmail.com
+  website: https://mmlee.me
+  social_networks:
+  - network: Google Scholar
+    username: jsDXz44AAAAJ
+  - network: ORCID
+    username: 0000-0002-1510-3753
+  - network: GitHub
+    username: leem26
+  sections:
+    Education:
+    - institution: Harvard University
+      area: Population Health Sciences (Public Health Nutrition)
+      degree: PhD
+      location: Cambridge, MA
+      date: 2024-05
+    - institution: Harvard T.H. Chan School of Public Health
+      area: Biostatistics
+      degree: SM
+      location: Boston, MA
+      date: 2024-05
+    - institution: University of California, Berkeley School of Public Health
+      area: Epidemiology
+      degree: MS
+      location: Berkeley, CA
+      date: 2019-05
+    - institution: University of California, Berkeley
+      area: Public Health
+      degree: BA
+      location: Berkeley, CA
+      date: 2016-05
+      highlights:
+      - 'Minors: Global Poverty, Music'
+    Experience:
+    - company: Partners for Public Good
+      position: Project Leader, Research | Strategy and Impact
+      location: Sacramento, CA (remote)
+      start_date: 2026-05
+      end_date: present
+      highlights:
+      - Provide research and statistical support to values-based food purchasing projects, including mapping state purchasing thresholds for school food authorities, designing questionnaires on uptake of sustainability and nutrition goals in food procurement, and reviewing reports and white papers.
+      - Co-develop funding proposals for private and public funders to build the school food procurement portfolio.
+      - Lead novel research benchmarking municipal procurement functions in the U.S. using administrative, survey, and governmental data, in collaboration with local governments and procurement experts.
+      - Manage research associates, fellows, and consultants, including training in qualitative and quantitative research methods.
+    - company: Massachusetts College of Pharmacy and Health Sciences
+      position: Adjunct Faculty, Pharmaceutical Economics and Policy
+      location: Boston, MA
+      start_date: 2026-01
+      end_date: present
+      highlights:
+      - 'Instructor for PEP 809: Statistical Programming in R; develop syllabi, lectures, assignments, and assessments.'
+      - Teach R, RStudio, and Git/GitHub to master's students, covering programming foundations, data management, statistical methods, and data visualization.
+    - company: Kurtosis Research
+      position: Research Consultant
+      location: Durham, NC
+      start_date: 2025-10
+      end_date: present
+      highlights:
+      - Support a Robert Wood Johnson Foundation Healthy Eating Research-funded review of community nutrition and social policy effects on weight, food security, and health outcomes.
+      - Lead mixed-methods analysis of a randomized experiment to increase take-up of Earned Income Tax Credit benefits among California WIC participants.
+      - Provide biostatistical, study design, and manuscript consulting to partners in the biomedical and clinical sciences.
+    - company: Harvard John F. Kennedy School of Government
+      position: Postdoctoral Fellow, Taubman Center for State and Local Government, Government Performance Lab
+      location: Cambridge, MA
+      start_date: 2025-07
+      end_date: 2026-05
+      highlights:
+      - Led evaluation of a guaranteed income intervention in Chelsea, MA, which increased total calories by 11%, fruit by 14%, and total vegetable consumption by 16%.
+      - Applied econometric and quantitative methods to evaluate local government policies and programs with respect to implementation, burden, scalability, and resident wellbeing.
+      - Used machine learning on unstructured call text (BERT and other large language models) to estimate the causal effects of alternative emergency response in Los Angeles, CA, on behavioral health.
+      - Conducted mixed-methods research on causes of homelessness in Detroit, MI, to improve housing crisis call scripts and referral infrastructure for residents facing eviction.
+    - company: Harvard T.H. Chan School of Public Health
+      position: Postdoctoral Research Fellow, Social Policies for Health Equity Research Center (SPHERE)
+      location: Boston, MA
+      start_date: 2024-08
+      end_date: 2025-07
+      highlights:
+      - Estimated causal effects of social policies on health and nutrition using observational and experimental data, high-performance computing, and econometric methods, including COVID-19 county-level policies and child cardiometabolic health (restricted Census data) and state paid family leave and perinatal health.
+      - Led independent analyses of COVID-19 waivers for SNAP and WIC on administrative burden and program utilization, and of adherence to US dietary guidelines and child health trajectories through adolescence.
+    - company: Harvard T.H. Chan School of Public Health
+      position: Nutrition Policy Researcher, Department of Nutrition
+      location: Boston, MA
+      start_date: 2020-01
+      end_date: 2024-05
+      highlights:
+      - Led data analysis, code review, and manuscript development on nutrition policies addressing childhood obesity, food access, and food insecurity, including nutrition assistance programs, sweetened beverage excise taxes, and targeted food and beverage marketing.
+    - company: Harvard T.H. Chan School of Public Health
+      position: Cost-Effectiveness Researcher, Department of Social and Behavioral Sciences
+      location: Boston, MA
+      start_date: 2020-01
+      end_date: 2024-05
+      highlights:
+      - Conducted microsimulation-based cost-effectiveness analyses of US policy interventions and their long-run impacts on health spending, obesity, morbidity, and mortality.
+      - Developed the R backend for processing simulation output (tables, figures, and sensitivity logs), now incorporated in the Childhood Obesity Interventions Cost-Effectiveness Study (CHOICES) microsimulation model.
+    - company: University of California, Berkeley School of Public Health
+      position: Researcher, Community Health Sciences
+      location: Berkeley, CA
+      start_date: 2017-08
+      end_date: 2019-05
+      highlights:
+      - Managed quasi-experimental evaluation of sugary beverage taxes in Oakland, Berkeley, and San Francisco; oversaw a team of 30 researchers.
+      - Supported analyses for the Fit Study, a three-year cluster-randomized trial of BMI screening and reporting.
+      - Led spatial analyses of targeted beverage marketing in San Francisco and spillover effects of physical education lawsuits on California district PE policies.
+    Publications:
+    - title: Remote Services, Benefits, and Program Retention Changes Among Young Children in WIC
+      authors:
+      - Kenney EL†
+      - '**Lee MM†**'
+      - Mozaffarian RS
+      - Rimm EB
+      journal: JAMA Network Open
+      publisher: JAMA Network Open
+      date: 2026-09
+      doi: 10.1001/jamanetworkopen.2026.36266
+      url: https://doi.org/10.1001/jamanetworkopen.2026.36266
+    - title: Increases to WIC’s Cash-Value Benefit for Fruits and Vegetables and Higher Benefit Redemption
+      authors:
+      - Kenney EL†
+      - '**Lee MM†**'
+      - Mozaffarian RS
+      - Rimm EB
+      journal: Pediatrics Open Science
+      publisher: Pediatrics Open Science
+      date: 2026-09
+      doi: 10.1542/pedsos.2026-001537
+      url: https://doi.org/10.1542/pedsos.2026-001537
+    - title: WIC Benefits Issued Remotely Increased Participation, Especially In States With Online Benefit Distribution, 2017–21
+      authors:
+      - Dore EC
+      - '**Lee MM**'
+      - McConnell M
+      - Hamad R
+      journal: Health Affairs
+      publisher: Health Affairs
+      date: 2026-09
+      doi: 10.1377/hlthaff.2026.00034
+      url: https://doi.org/10.1377/hlthaff.2026.00034
+    - title: 'Longitudinal Changes in Healthy Eating Index-2020 Score and Impacts on Body Mass Index among Adolescents in the Growing Up Today Study: A Prospective Cohort Study'
+      authors:
+      - '**Lee MM**'
+      - Poole MK
+      - Chen JT
+      - Gortmaker SL
+      - Stephenson BJK
+      - Haines J
+      - Chavarro JE
+      - Diamantis DV
+      - Kenney EL
+      journal: The Journal of Nutrition
+      publisher: The Journal of Nutrition
+      date: 2026-09
+      doi: 10.1016/j.tjnut.2026.101735
+      url: https://doi.org/10.1016/j.tjnut.2026.101735
+    - title: Association of pandemic-era US county-level policies with adult health and health behaviors
+      authors:
+      - Dore EC
+      - Wright E
+      - Jackson KE
+      - Wang G
+      - '**Lee MM**'
+      - Pletcher MJ
+      - Carton TW
+      - Hamad R
+      journal: SSM - Population Health
+      publisher: SSM - Population Health
+      date: 2026-09
+      doi: 10.1016/j.ssmph.2026.101950
+      url: https://doi.org/10.1016/j.ssmph.2026.101950
+    - title: 'Impacts of Paid Family Leave on Perinatal Health: A Nationwide Quasi-Experimental Study'
+      authors:
+      - '**Lee MM**'
+      - Collin DF
+      - Jackson KE
+      - Wells W
+      - Hamad R
+      journal: Pediatrics
+      publisher: Pediatrics
+      date: 2026-08
+      doi: 10.1542/peds.2025-074791
+      url: https://doi.org/10.1542/peds.2025-074791
+    - title: 'Statewide Universal School Meals Policies and Food Insecurity: Difference-in-Differences Analysis'
+      authors:
+      - Kinderknecht KL
+      - Rimm EB
+      - Austin SB
+      - Ramanadhan S
+      - '**Lee MM**'
+      - Kenney EL
+      journal: Pediatrics
+      publisher: Pediatrics
+      date: 2026-07
+      doi: 10.1542/peds.2025-073484
+      url: https://doi.org/10.1542/peds.2025-073484
+    - title: Changes in Food Security and Diet Quality After the 2021 SNAP Benefit Increase in Massachusetts, USA
+      authors:
+      - Poole MK
+      - Fiechtner LG
+      - O’Dwyer E
+      - Ruggiero CF
+      - Rimm EB
+      - '**Lee MM**'
+      - Adams K
+      - Kenney EL
+      journal: Nutrients
+      publisher: Nutrients
+      date: 2026-05
+      doi: 10.3390/nu18111729
+      url: https://doi.org/10.3390/nu18111729
+    - title: 'Men’s preconception diet quality patterns predict supportive food parenting practices: evidence from a longitudinal cohort study'
+      authors:
+      - De Oliveira MH
+      - Lo BK
+      - '**Lee MM**'
+      - Armbruster S
+      - Grafft N
+      - Park IY
+      - Cantu-Aldana A
+      - Bauer KW
+      - Coley RL
+      - Haneuse S
+      - Davison K
+      - Haines J
+      journal: International Journal of Behavioral Nutrition and Physical Activity
+      publisher: International Journal of Behavioral Nutrition and Physical Activity
+      date: 2026-05
+      doi: 10.1186/s12966-026-01914-z
+      url: https://doi.org/10.1186/s12966-026-01914-z
+    - title: Randomized unconditional cash transfers improved diet quantity and quality in a low-income community in Massachusetts, USA
+      authors:
+      - '**Lee MM**'
+      - Kenney EL
+      - Carlson K
+      - Novick E
+      - Portocarrero P
+      - Rimm EB
+      - Chen JT
+      - Gortmaker SL
+      - Stephenson BJK
+      - Liebman J
+      journal: Nature Food
+      publisher: Nature Food
+      date: 2026-02
+      doi: 10.1038/s43016-026-01301-8
+      url: https://doi.org/10.1038/s43016-026-01301-8
+    - title: '“I Didn''t Have to Struggle”: Caregivers’ Perspectives on the Synergistic Interplay of WIC and SNAP on Family Health'
+      authors:
+      - Gago CM
+      - '**Lee MM**'
+      - Hammad NM
+      - Wynne JO
+      - Poole MK
+      - Zimmer M
+      - Mozaffarian RS
+      - Colchamiro R
+      - May K
+      - Rimm EB
+      - Kenney EL
+      journal: American Journal of Public Health
+      publisher: American Journal of Public Health
+      date: 2025-12
+      doi: 10.2105/AJPH.2025.308259
+      url: https://doi.org/10.2105/AJPH.2025.308259
+    - title: 'Understanding And Comparing Economic Assistance Models To Improve Food Security And Diet Quality: A Rapid Review'
+      authors:
+      - Poole MK
+      - '**Lee MM**'
+      - Bleich SN
+      - Kenney EL
+      journal: Health Affairs
+      publisher: Health Affairs
+      date: 2025-04
+      doi: 10.1377/hlthaff.2024.01352
+      url: https://doi.org/10.1377/hlthaff.2024.01352
+    - title: 'Trends in Toddler Diet Quality in the United States: 1999 to 2018'
+      authors:
+      - Zimmer M
+      - '**Lee MM**'
+      - Zhan JJ
+      - Kenney EL
+      - Leung CW
+      journal: Pediatrics
+      publisher: Pediatrics
+      date: 2024-12
+      doi: 10.1542/peds.2024-067783
+      url: https://doi.org/10.1542/peds.2024-067783
+    - title: 'Dietaryindex: a user-friendly and versatile R package for standardizing dietary pattern analysis in epidemiological and clinical studies'
+      authors:
+      - Zhan JJ
+      - Hodge RA
+      - Dunlop AL
+      - '**Lee MM**'
+      - Bui L
+      - Liang D
+      - Ferranti EP
+      journal: The American Journal of Clinical Nutrition
+      publisher: The American Journal of Clinical Nutrition
+      date: 2024-11
+      doi: 10.1016/j.ajcnut.2024.08.021
+      url: https://doi.org/10.1016/j.ajcnut.2024.08.021
+    - title: Philadelphia Beverage Tax's Impact on Beverage Ad Expenditures and Number of Ads Purchased
+      authors:
+      - Hua SV
+      - '**Lee MM**'
+      - Mozaffarian R
+      - Bleich SN
+      - Roberto CA
+      - Fleming-Milici F
+      - Stephenson B
+      - Kenney EL
+      journal: American Journal of Preventive Medicine
+      publisher: American Journal of Preventive Medicine
+      date: 2024-08
+      doi: 10.1016/j.amepre.2024.03.011
+      url: https://doi.org/10.1016/j.amepre.2024.03.011
+    - title: Daily Saturated Fat and Sodium Content of Elementary School Meals in a Large Sample of 128 Geographically Diverse School Systems in the United States
+      authors:
+      - Chapman LE
+      - Richardson SA
+      - Rimm EB
+      - Gortmaker SL
+      - '**Lee MM**'
+      - Cohen JFW
+      journal: Journal of the Academy of Nutrition and Dietetics
+      publisher: Journal of the Academy of Nutrition and Dietetics
+      date: 2024-03
+      doi: 10.1016/j.jand.2023.10.009
+      url: https://doi.org/10.1016/j.jand.2023.10.009
+    - title: 'Advertising and Stocking at Small Retailers: A Sweetened Beverage Excise Tax in Philadelphia'
+      authors:
+      - '**Lee MM**'
+      - Gibson LA
+      - Hua SV
+      - Lowery CM
+      - Paul M
+      - Roberto CA
+      - Lawman HG
+      - Bleich SN
+      - Mitra N
+      - Kenney EL
+      journal: American Journal of Preventive Medicine
+      publisher: American Journal of Preventive Medicine
+      date: 2024-03
+      doi: 10.1016/j.amepre.2023.09.022
+      url: https://doi.org/10.1016/j.amepre.2023.09.022
+    - title: Cost-effectiveness of Improved WIC Food Package for Preventing Childhood Obesity
+      authors:
+      - Kenney EL
+      - '**Lee MM**'
+      - Barrett JL
+      - Ward ZJ
+      - Long MW
+      - Cradock AL
+      - Williams DR
+      - Gortmaker SL
+      journal: Pediatrics
+      publisher: Pediatrics
+      date: 2024-01
+      doi: 10.1542/peds.2023-063182
+      url: https://doi.org/10.1542/peds.2023-063182
+    - title: 'A Sugar-Sweetened Beverage Excise Tax in California: Projected Benefits for Population Obesity and Health Equity'
+      authors:
+      - '**Lee MM**'
+      - Barrett JL
+      - Kenney EL
+      - Gouck J
+      - Whetstone LM
+      - McCulloch SM
+      - Cradock AL
+      - Long MW
+      - Ward ZJ
+      - Rohrer B
+      - Williams DR
+      - Gortmaker SL
+      journal: American Journal of Preventive Medicine
+      publisher: American Journal of Preventive Medicine
+      date: 2024-01
+      doi: 10.1016/j.amepre.2023.08.004
+      url: https://doi.org/10.1016/j.amepre.2023.08.004
+    - title: Food insecurity and the role of food assistance programs in supporting diet quality during the COVID-19 pandemic in Massachusetts
+      authors:
+      - '**Lee MM**'
+      - Poole MK
+      - Zack RM
+      - Fiechtner L
+      - Rimm EB
+      - Kenney EL
+      journal: Frontiers in Nutrition
+      publisher: Frontiers in Nutrition
+      date: 2023-01
+      doi: 10.3389/fnut.2022.1007177
+      url: https://doi.org/10.3389/fnut.2022.1007177
+    - title: Simplification of Supplemental Nutrition Assistance Program Recertification Processes and Association With Uninterrupted Access to Benefits Among Participants With Young Children
+      authors:
+      - Kenney EL
+      - Soto MJ
+      - Fubini M
+      - Carleton A
+      - '**Lee MM**'
+      - Bleich SN
+      journal: JAMA Network Open
+      publisher: JAMA Network Open
+      date: 2022-09
+      doi: 10.1001/jamanetworkopen.2022.30150
+      url: https://doi.org/10.1001/jamanetworkopen.2022.30150
+    - title: 'U.S. Nutrition Assistance Program Participation and Childhood Obesity: The Early Childhood Longitudinal Study 2011'
+      authors:
+      - '**Lee MM**'
+      - Kinsey EW
+      - Kenney EL
+      journal: American Journal of Preventive Medicine
+      publisher: American Journal of Preventive Medicine
+      date: 2022-08
+      doi: 10.1016/j.amepre.2022.02.016
+      url: https://doi.org/10.1016/j.amepre.2022.02.016
+    - title: Socioeconomic disparities in outdoor branded advertising in San Francisco and Oakland, California
+      authors:
+      - Zahid N
+      - Pulvera R
+      - Madsen KA
+      - '**Lee MM**'
+      - Ibarra-Castro A
+      - Falbe J
+      journal: Preventive Medicine Reports
+      publisher: Preventive Medicine Reports
+      date: 2022-06
+      doi: 10.1016/j.pmedr.2022.101796
+      url: https://doi.org/10.1016/j.pmedr.2022.101796
+    - title: Longitudinal Analysis of Food Insufficiency and Cardiovascular Disease Risk Factors in the CARDIA study
+      authors:
+      - Vercammen KA
+      - Moran AJ
+      - Carnethon MR
+      - McClain AC
+      - Pool LR
+      - Kiefe CI
+      - Carson AP
+      - Gordon-Larsen P
+      - Steffen LM
+      - '**Lee MM**'
+      - Young JG
+      - Rimm EB
+      journal: American Journal of Preventive Medicine
+      publisher: American Journal of Preventive Medicine
+      date: 2022-01
+      doi: 10.1016/j.amepre.2021.06.020
+      url: https://doi.org/10.1016/j.amepre.2021.06.020
+    - title: 'Weight Stigma and Social Media: Evidence and Public Health Solutions'
+      authors:
+      - Clark O†
+      - '**Lee MM†**'
+      - Jingree ML
+      - O'Dwyer E
+      - Yue Y
+      - Marrero A
+      - Tamez M
+      - Bhupathiraju SN
+      - Mattei J
+      journal: Frontiers in Nutrition
+      publisher: Frontiers in Nutrition
+      date: 2021-11
+      doi: 10.3389/fnut.2021.739056
+      url: https://doi.org/10.3389/fnut.2021.739056
+    - title: 'Secular Trends in Sugar-Sweetened Beverage Consumption Among Adults, Teens, and Children: The California Health Interview Survey, 2011–2018'
+      authors:
+      - '**Lee MM**'
+      - Altman E
+      - Madsen KA
+      journal: Preventing Chronic Disease
+      publisher: Preventing Chronic Disease
+      date: 2021-02
+      doi: 10.5888/pcd18.200399
+      url: https://doi.org/10.5888/pcd18.200399
+    - title: Retailer perspectives on sugar-sweetened beverage taxes in the California Bay Area
+      authors:
+      - Ponce J
+      - Yuan H
+      - Schillinger D
+      - Mahmood H
+      - '**Lee MM**'
+      - Falbe J
+      - Daniels R
+      - Madsen KA
+      journal: Preventive Medicine Reports
+      publisher: Preventive Medicine Reports
+      date: 2020-09
+      doi: 10.1016/j.pmedr.2020.101129
+      url: https://doi.org/10.1016/j.pmedr.2020.101129
+    - title: Higher Sugar-Sweetened Beverage Retail Prices After Excise Taxes in Oakland and San Francisco
+      authors:
+      - Falbe J
+      - '**Lee MM**'
+      - Kaplan S
+      - Rojas NA
+      - Ortega Hinojosa AM
+      - Madsen KA
+      journal: American Journal of Public Health
+      publisher: American Journal of Public Health
+      date: 2020-07
+      doi: 10.2105/AJPH.2020.305602
+      url: https://doi.org/10.2105/AJPH.2020.305602
+    - title: 'Gentrification and Displacement in the San Francisco Bay Area: A Comparison of Measurement Approaches'
+      authors:
+      - Mujahid MS
+      - Sohn EK
+      - Izenberg J
+      - Gao X
+      - Tulier ME
+      - '**Lee MM**'
+      - Yen IH
+      journal: International Journal of Environmental Research and Public Health
+      publisher: International Journal of Environmental Research and Public Health
+      date: 2019-06
+      doi: 10.3390/ijerph16122246
+      url: https://doi.org/10.3390/ijerph16122246
+    - title: Secular Trends in Soda Consumption, California, 2011–2016
+      authors:
+      - '**Lee MM**'
+      - Falbe J
+      - Madsen KA
+      journal: Preventing Chronic Disease
+      publisher: Preventing Chronic Disease
+      date: 2019-05
+      doi: 10.5888/pcd16.180372
+      url: https://doi.org/10.5888/pcd16.180372
+    - title: Sugar-Sweetened Beverage Consumption 3 Years After the Berkeley, California, Sugar-Sweetened Beverage Tax
+      authors:
+      - '**Lee MM**'
+      - Falbe J
+      - Schillinger D
+      - Basu S
+      - McCulloch CE
+      - Madsen KA
+      journal: American Journal of Public Health
+      publisher: American Journal of Public Health
+      date: 2019-04
+      doi: 10.2105/AJPH.2019.304971
+      url: https://doi.org/10.2105/AJPH.2019.304971
+    Works in Review:
+    - bullet: '**Lee MM**, Jackson KE, Fernández-Viña N, Dougan SS, Gosliner W, Hamad R, White JS, de Trinidad Young M, Fernald LCH. Behavioral strategies to increase take-up of health-promoting anti-poverty benefits: A randomized pilot trial and mixed-methods evaluation among California WIC. *Under review at Prev Med.*'
+    - bullet: 'Dore EC†, **Lee MM†**, Jackson KE, Carton T, Pletcher M, Hamad R. Impacts of county-level COVID-19 policies on child food insecurity and health: findings from the National Health Interview Survey. *Under review at Milbank Q.*'
+    - bullet: 'Dore EC, **Lee MM**, Jackson KE, Carton T, Pletcher MJ, Hamad R. Association between County-Level COVID-19 Policies and Adult Health: Findings from the National Health Interview Survey. *Under review at Public Health Reports.*'
+    - bullet: Jackson KE, Wright E, Wang G, Dore EC, **Lee MM**, Pletcher MJ, Carton TW, Hamad R. The association of pandemic-era county policies with mental healthcare utilization among US adults. *Under review at Am J Public Health.*
+    Reports and Briefs:
+    - bullet: 'Stelson EA, **Lee MM**, Poole MK. What keeps us up at night: Reflections from a lost generation of scientists. *The Milbank Quarterly* (June 2025).'
+    Presentations:
+    - bullet: '**Lee MM**, Jackson KE, Carton T, Pletcher MJ, Hamad R. Examining the Effects of County-Level COVID-19 Policies on Child Nutrition and Health Equity to Inform Current and Future Policymaking. Healthy Eating Research Annual Meeting (March 2025).'
+    - bullet: '**Lee MM**, Poole MK, Chen JT, Gortmaker SL, Stephenson BK, Haines J, Chavarro J, Kenney EL. Longitudinal Changes in Adherence to US Dietary Guidelines and Associations With Body Mass Index Among Adolescents in the Growing Up Today Study: A Change-in-Change Study. American Society for Nutrition Annual Meeting (July 2024).'
+    - bullet: 'Chapman LE, Richardson SA, Rimm EB, Gortmaker SL, **Lee MM**, Cohen JFW. Examining Student Plate Waste Following a Conversion From Pre-packaged to Scratch-Cooked Lunches Prepared On-Site: A Longitudinal Cohort Study. American Society for Nutrition Annual Meeting (July 2024).'
+    - bullet: '**Lee MM**, Kenney EL, Carlson K, Novick E, Portocarrero P, Rimm EB, Chen JT, Gortmaker SL, Stephenson BK, Liebman J. Impact of unconditional cash transfers on diet during the COVID-19 pandemic: A randomized lottery experiment. American Public Health Association Annual Meeting (November 2023).'
+    - bullet: '**Lee MM**, Gibson LA, Hua SV, Lowery CM, Paul M, Roberto CA, Lawman HG, Bleich SN, Mitra N, Kenney EL. Changes in advertising and store stocking practices among small, independent beverage retailers following a sweetened beverage excise tax in Philadelphia: A difference-in-differences study. American Public Health Association Annual Meeting (November 2023).'
+    - bullet: Chapman L, Richardson S, Rimm EB, Gortmaker SL, **Lee MM**, Cohen J. Daily saturated fat and sodium content of school meals among a nationally representative sample of elementary schools in the United States. American Public Health Association Annual Meeting (November 2023).
+    - bullet: '**Lee MM**, Barrett J, Kenney EL, Gouck J, Cradock AL, Long MW, Ward ZJ, Rohrer B, Gortmaker SL. Impacts of a state-wide sugar-sweetened beverage excise tax in California: Projected benefits for population obesity and health equity. American Public Health Association Annual Meeting (2022).'
+    - bullet: Kenney EL, **Lee MM**, Barrett J, Ward ZJ, Long MW, Cradock AL, Gortmaker SL. The cost-effectiveness and health equity impacts of improved nutrition standards in WIC, and the potential for maximizing WIC's benefits for population health. American Public Health Association Annual Meeting (2022).
+    - bullet: Yuan H, Schillinger D, Ponce J, **Lee MM**, Falbe J, Daniels R, Madsen K. Implementation of 3 sugar-sweetened beverage taxes in California Bay Area. American Public Health Association Annual Meeting (2019).
+    Invited Lectures:
+    - bullet: 'Impacts of paid family leave on perinatal health: a nationwide quasi-experimental study. Paid Leave for All Monthly Meeting (October 2026).'
+    - bullet: 'Equitable Food Policy in the United States. California State University, Long Beach, H SC 507: Health Equity and Health Disparities Research in the US (May 2026, October 2025, October 2024).'
+    - bullet: 'Assessing outcome evaluation study designs, quality, and considerations for health equity. NUT 232: Designing and Evaluating Behavioral Interventions Targeting Diet (November 2024).'
+    Teaching:
+    - bullet: '**Instructor**, PEP 809: Statistical Programming in R. Massachusetts College of Pharmacy and Health Sciences (Spring 2026).'
+    - bullet: '**Teaching Fellow**, PHS 2000A/B: Quantitative Research Methods in Population Health Sciences. Harvard T.H. Chan School of Public Health (Fall 2021, Spring 2022, Fall 2022).'
+    - bullet: '**Teaching Fellow**, SBS 203/204: Program Implementation and Evaluation. Harvard T.H. Chan School of Public Health (Spring 2022, 2023, and 2024).'
+    - bullet: '**Teaching Fellow**, Nutrition 202: The Biological Basis of Human Nutrition. Harvard T.H. Chan School of Public Health (Spring 2022).'
+    Awards and Honors:
+    - label: '2024'
+      details: ASN Emerging Leaders in Nutrition Science Award
+    - label: '2023'
+      details: APHA Annual Conference Food and Nutrition Abstract Award
+    - label: '2023'
+      details: GSAS Professional Development Fund Recipient
+    - label: '2022'
+      details: Irene M. & Fredrick J. Stare Nutrition Education Fund Awardee
+    - label: '2021'
+      details: Berkowitz Fellowship in Public Health
+    - label: 2020, 2021
+      details: Certificate of Distinction in Teaching, Derek Bok Center for Teaching and Learning
+    - label: '2020'
+      details: Simon, Arpi, and Marie Simonian Research Excellence in Nutrition Prize
+    - label: '2019'
+      details: Prajna Chair's Scholarship in Public Health Nutrition
+    - label: '2017'
+      details: Reshetko Family Scholarship
+    Service:
+    - bullet: 'Ad hoc reviewer: American Journal of Public Health; Journal of the Academy of Nutrition and Dietetics; PLOS ONE; PLOS Medicine; AJPM Focus; American Journal of Preventive Medicine; Pediatrics; BMC Public Health; Scientific Reports; Frontiers in Nutrition; Preventive Medicine Reports; Public Health; International Journal of Obesity; Journal of Nutritional Science.'
+    Technical Skills:
+    - label: Statistical programming
+      details: R (fluent), Stata (fluent), SAS, Python, Stan (working)
+    - label: Spatial analysis
+      details: R (fluent), ArcGIS (working)
+    - label: Qualitative analysis
+      details: Dedoose (fluent), Atlas.ti (working)
+    - label: Version control
+      details: Git, GitHub
+    - label: High-performance computing
+      details: O2 (Harvard Medical School), FASRC/FASSE (Harvard University)
+    - label: Design
+      details: Adobe Photoshop, Illustrator, InDesign, Premiere, Lightroom

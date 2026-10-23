@@ -1,0 +1,5 @@
+# Optional badge colors/links for publication venues, keyed by the bib "abbr" field, e.g.
+# "AJPH":
+#   url: https://ajph.aphapublications.org/
+#   color: "#00369f"
+{}
