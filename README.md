@@ -1,6 +1,6 @@
-# mmlee.me
+# mattlee26.github.io
 
-Personal academic website of Matthew M. Lee, PhD, built with [al-folio](https://github.com/alshedivat/al-folio) (v1.x) and hosted on GitHub Pages at <https://mmlee.me>.
+Personal academic website of Matthew M. Lee, PhD, built with [al-folio](https://github.com/alshedivat/al-folio) (v1.x) and hosted on GitHub Pages at <https://mattlee26.github.io>.
 
 ## Where things live
 
@@ -34,40 +34,21 @@ LANG=en_US.UTF-8 bundle exec jekyll serve
 
 Then open <http://localhost:4000>. Responsive images need ImageMagick (`brew install imagemagick`); without it, set `imagemagick: enabled: false` in a local override config.
 
-## Deploying to GitHub Pages with the mmlee.me domain
+## Publishing
 
-1. **Create the repository.** On GitHub, create an empty public repository named `leem26.github.io` (no README, license, or .gitignore).
-2. **Push this folder** (it is already a git repository on branch `main`).
+The site is the GitHub repository `mattlee26/mattlee26.github.io`. Because the repository is named `<username>.github.io`, GitHub serves it at the root of <https://mattlee26.github.io>.
 
-   ```bash
-   git add .
-   git commit -m "Initial al-folio site"
-   git remote add origin https://github.com/leem26/leem26.github.io.git
-   git push -u origin main
-   ```
+To publish a change, commit it and push to `main`:
 
-3. **Allow the workflow to publish.** Repository **Settings → Actions → General → Workflow permissions → Read and write permissions → Save**. If the first "Deploy site" run failed before this was set, re-run it from the **Actions** tab.
-4. **Turn on Pages.** Once "Deploy site" succeeds (it creates a `gh-pages` branch), go to **Settings → Pages → Build and deployment**, choose **Deploy from a branch**, branch **`gh-pages`**, folder **`/ (root)`**.
-5. **Set the custom domain.** In **Settings → Pages → Custom domain**, enter `mmlee.me` and save. The `CNAME` file in this repo keeps it set on every deploy.
-6. **Point DNS at GitHub.** `mmlee.me` currently uses Netlify DNS (nameservers `dns1–4.p02.nsone.net`) and points at the old Netlify site. In Netlify:
-   - Remove `mmlee.me` (and `www.mmlee.me`) from the old site's **Domain management** so Netlify releases the records.
-   - In **Domains → mmlee.me → DNS records**, delete any remaining apex/`www` records, then add:
+```bash
+git add -A
+git commit -m "Describe the change"
+git push
+```
 
-     | Type  | Name  | Value                 |
-     | ----- | ----- | --------------------- |
-     | A     | @     | `185.199.108.153`     |
-     | A     | @     | `185.199.109.153`     |
-     | A     | @     | `185.199.110.153`     |
-     | A     | @     | `185.199.111.153`     |
-     | AAAA  | @     | `2606:50c0:8000::153` |
-     | AAAA  | @     | `2606:50c0:8001::153` |
-     | AAAA  | @     | `2606:50c0:8002::153` |
-     | AAAA  | @     | `2606:50c0:8003::153` |
-     | CNAME | www   | `leem26.github.io`    |
+The **Deploy site** workflow builds the site and pushes the result to the `gh-pages` branch, and GitHub Pages serves it a minute or two later. Watch progress in the repository's **Actions** tab.
 
-   (Alternatively, switch the domain's nameservers back to your registrar and add the same records there.)
+One-time settings this depends on (already done):
 
-7. **Enable HTTPS.** After GitHub's DNS check passes (minutes to a few hours), tick **Enforce HTTPS** in **Settings → Pages**.
-8. **Recommended:** verify the domain under your GitHub account's **Settings → Pages → Add a domain** (adds a TXT record) to protect it from takeover.
-
-Every push to `main` rebuilds and redeploys the site in a few minutes.
+- **Settings → Actions → General → Workflow permissions:** Read and write permissions.
+- **Settings → Pages → Build and deployment:** Deploy from a branch, branch `gh-pages`, folder `/ (root)`, no custom domain.
