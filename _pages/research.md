@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 ---
 
-My research looks at how food and social policies affect diet, food security, obesity, and cardiometabolic health, and whether they reduce health disparities. I mostly use quasi-experimental designs such as difference-in-differences and interrupted time series. I also analyze randomized trials, build microsimulation models for cost-effectiveness analysis, and sometimes use machine learning. I often work directly with government agencies and policymakers.
+My research looks at how food and social policies affect diet, food security, obesity, and cardiometabolic health, and whether they reduce health disparities. I rely on quasi-experimental designs such as difference-in-differences (DiD) methods and interrupted time series models. I also leverage data from randomized experiments and build microsimulation models for cost-effectiveness analysis. My work is informed by the decisions made by government agencies and policymakers.
 
 ### Nutrition assistance programs
 
@@ -31,7 +31,7 @@ I study whether income support and paid leave improve health, and how to help el
 
 ### Sugar-sweetened beverage taxes and food marketing
 
-I have evaluated local beverage taxes in Berkeley, Oakland, San Francisco, and Philadelphia, looking at consumption, prices, store stocking, and advertising.
+I have evaluated local sweetened beverage taxes in Berkeley, Oakland, San Francisco, and Philadelphia, looking at consumption, prices, store stocking, and advertising.
 
 - Consumption three years after the Berkeley tax ([_AJPH_ 2019](/publications/#lee2019sugar))
 - Retail prices after the Oakland and San Francisco taxes ([_AJPH_ 2020](/publications/#falbe2020higher))
@@ -52,8 +52,5 @@ I have used the Childhood Obesity Interventions Cost-Effectiveness Study (CHOICE
 - Trends in toddler diet quality, 1999 to 2018 ([_Pediatrics_ 2024](/publications/#zimmer2024trends))
 - `dietaryindex`, an R package for calculating dietary pattern scores ([_AJCN_ 2024](/publications/#zhan2024dietaryindex))
 
-### Work with local governments
-
-As a postdoctoral fellow at the Taubman Center for State and Local Government at the Harvard Kennedy School, I evaluated city programs. In Los Angeles, I used BERT and other language models on unstructured call text to estimate how alternative emergency response affected behavioral health. In Detroit, I used mixed methods to study the causes of homelessness and to improve housing crisis call scripts and referrals for residents facing eviction.
 
 See the [publications](/publications/) page for the full list.
