@@ -9,8 +9,8 @@ last_name: Lee
 contact_note: >
   Email is the best way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Matthew M. Lee, PhD — population health scientist evaluating how food and social policies
-  shape diet, health, and health equity.
+  Website of Matthew M. Lee, PhD, a population health scientist who studies food and social policy,
+  diet, and health equity.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -188,11 +188,7 @@ newsletter:
 # Collections
 # -----------------------------------------------------------------------------
 
-collections:
-  news:
-    defaults:
-      layout: post
-    output: true
+collections: {}
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -214,6 +210,9 @@ kramdown:
 # Includes & excludes
 include: ["_pages"]
 exclude:
+  - .agents/
+  - .claude/
+  - .codex/
   - AGENTS.md
   - al-folio-upgrade-report.md
   - bin/

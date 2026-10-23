@@ -4,9 +4,9 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 4
-cv_pdf: /assets/rendercv/rendercv_output/Matthew_Lee_CV.pdf # regenerated from _data/cv.yml by .github/workflows/render-cv.yml
+cv_pdf: /assets/pdf/Lee_Matthew_CV.pdf # replace this file to update the downloadable CV
 cv_format: rendercv # options: rendercv, jsonresume
-description: PhD-trained population health scientist evaluating food and social policies with econometric, epidemiologic, and machine learning methods. Download the PDF with the icon on the right.
+description: Download a PDF copy using the icon on the right.
 toc:
   sidebar: left
 ---

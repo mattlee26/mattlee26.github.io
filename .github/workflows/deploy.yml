@@ -55,11 +55,6 @@ on:
       - "!docs/FAQ.md"
       - "!docs/INSTALL.md"
       - "!README.md"
-  # The CV workflow commits the regenerated PDF with GITHUB_TOKEN, which does not trigger a push event,
-  # so redeploy once it finishes to publish the new PDF.
-  workflow_run:
-    workflows: ["Render a CV"]
-    types: [completed]
   workflow_dispatch:
 
 permissions:

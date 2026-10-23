@@ -6,21 +6,22 @@ Personal academic website of Matthew M. Lee, PhD, built with [al-folio](https://
 
 | To change…                            | Edit                                                                                |
 | ------------------------------------- | ----------------------------------------------------------------------------------- |
-| Bio, photo caption, homepage sections | `_pages/about.md` (photo: `assets/img/prof_pic.jpg`)                                |
-| News items on the homepage            | `_news/*.md` (one file per item)                                                    |
+| Bio and homepage sections             | `_pages/about.md` (photo: `assets/img/prof_pic.jpg`)                                |
+| Bold name and page titles             | `assets/css/main.scss` (rules at the end; the rest is copied from the theme)       |
 | Publications                          | `_bibliography/papers.bib` (`selected = {true}` puts a paper on the homepage)      |
 | Research and teaching pages           | `_pages/research.md`, `_pages/teaching.md`                                          |
-| CV page and CV PDF                    | `_data/cv.yml` (RenderCV format); the PDF is rebuilt automatically on push         |
+| CV page                               | `_data/cv.yml` (the on-page CV)                                                     |
+| Downloadable CV PDF                   | replace `assets/pdf/Lee_Matthew_CV.pdf` (keep the file name)                        |
 | Social links (email, Scholar, ORCID…) | `_data/socials.yml`                                                                 |
 | Site title, URL, feature flags        | `_config.yml`                                                                       |
 
 ### Adding a publication
 
-Add a BibTeX entry to `_bibliography/papers.bib`. Useful extra fields: `abbr` (badge text, e.g. `{AJPH}`), `abstract`, `doi`, `selected = {true}`, `altmetric = {true}`, `dimensions = {true}`, `pdf` (a file in `assets/pdf/` or a URL), `code`, `slides`. Mark co-first authors by appending `†` to the last name (e.g. `Lee†, Matthew M.`) and add `annotation = {† Co-first authors}`. Then add the entry to the `Publications` list in `_data/cv.yml` so it appears on the CV too.
+Add a BibTeX entry to `_bibliography/papers.bib`. Useful extra fields: `abbr` (badge text, e.g. `{AJPH}`), `abstract`, `doi`, `selected = {true}`, `altmetric = {true}`, `dimensions = {true}`, `pdf` (a file in `assets/pdf/` or a URL), `code`, `slides`. Mark co-first authors by appending `†` to the last name (e.g. `Lee†, Matthew M.`) and add `annotation = {† Co-first authors}`. Then add the entry to the `Publications` list in `_data/cv.yml` so it appears on the CV page too.
 
 ### CV PDF
 
-`.github/workflows/render-cv.yml` runs [RenderCV](https://rendercv.com) whenever `_data/cv.yml` changes, commits `assets/rendercv/rendercv_output/Matthew_Lee_CV.pdf`, and triggers a redeploy. To use a PDF you design yourself instead, put it in `assets/pdf/`, point `cv_pdf` in `_pages/cv.md` and `_data/socials.yml` at it, and delete the render-cv workflow.
+The CV download button and the CV icon on the home page both link to `assets/pdf/Lee_Matthew_CV.pdf`. To update it, export your CV to PDF (without your home address or phone number) and overwrite that file. The CV page itself is built from `_data/cv.yml`, so update both when your CV changes.
 
 ## Previewing locally
 
